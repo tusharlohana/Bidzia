@@ -1,0 +1,136 @@
+.navbar-dark{
+	background-color: black;
+	border-bottom: 1px solid black;
+	height: 70px;
+	font-size: 14pt;
+	text-transform: capitalize;
+}
+.nav-link {
+	color: #fff ;
+}
+.nv-ul{
+	display: inline-flex;
+	width: 100%;
+	height: 100%;
+	background-color: #212121;
+}
+.nv-li{
+	list-style: none;
+	width:15%;
+	text-align: center;
+	text-transform: capitalize;
+	line-height: 40px;
+}
+.nv-li:hover a{
+	text-decoration:none;
+	color: #fff;
+	font-size: 14pt;
+	transition: ease 1s;
+}
+.nv-li a{
+	color: #fff;
+}
+.bg-div{
+	width: 100%;
+	height: 350px;
+	position: relative;
+	background-image: linear-gradient( to bottom right,
+		#118be2 20%,white, #f3f34c)
+}
+.bg-div{
+	text-align: center;
+	text-transform: capitalize;
+	padding-top: 50px;
+}
+
+.text_1 {
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+}
+.div-cards{
+	position: relative;
+	width: 90%;
+	height: auto;
+	display: inline-flex;
+	padding: 30px;
+	left:10%;
+	margin : -55px;
+	border: 1px solid black;
+	background-color:#F9F2F1;
+
+}
+.tittle h3{
+	font-size: 50px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.tittle h3:after {
+    position: relative;
+    content: '';
+    top: 100%;
+    width: 110px;
+    height: 8px;
+    display: block;
+    margin: 0 auto;
+    background: #000;
+}
+.tittle p{
+	font-size: 30px;
+	font-weight: 500;
+	margin-top: 25px;
+}
+.card-img-top{
+	width: 50px;
+	height: 200px;
+}
+.car-img {
+	border-radius:8% !important; 
+	width: 200px !important ;
+	height: 200px !important;
+	margin: 10%;
+}
+.carousel-item .card{
+	margin: 30px;
+
+}
+.carousel-item .card:hover{
+	border: 1px solid rgba(0,0,0,0.3);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+
+}
+.carousel-item{
+	margin-left:4%;
+}
+.left{
+	width: 22%;
+	height:auto;
+	border: 1px solid #fff;
+	margin-left: 2%;
+	padding-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+
+}
+.left ul{
+	color:#118be2;
+	text-transform:capitalize;
+}
+
+.left ul li a{
+	/*text-decoration: none;*/
+	color: #000;
+}
+#sc-pr, #sc-ne, #s-pr, #s-ne{
+	color: black;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+    background-size: 15px 15px;
+}
+    object{
+  width: 100%;
+height: auto;
+
+}
